@@ -1,0 +1,45 @@
+.card-pricing__container{
+  /* aparecer na frente */
+  position: absolute;
+  
+  /* posição inferior */
+  bottom: 0px;
+  left: 0;
+
+  /* atuando nas div's filhas */
+  display: flex;
+  /* um embaixo do outro */
+  flex-direction: column;
+
+  width: 100%;
+  height: 70px;
+  background-color: rgba(0, 0, 0, 0.8);
+
+  padding: 10px;
+
+  color: #faebd7;
+  font-family: 'Calibri';
+}
+
+.card-pricing__title{
+  margin-bottom: 3px;
+}
+
+.card-pricing__value{
+  display: flex;
+  flex-direction: row;
+
+  /* espaçamento entre os elementos */
+  justify-content: space-between;
+}
+
+.card-pricing__value__console {
+  display: flex;
+  flex-direction: row;
+}
+
+.card-pricing__value__console > span {
+  font-weight: bolder;
+  color: aqua;
+  margin-right: 10px;
+}

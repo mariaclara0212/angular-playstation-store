@@ -1,0 +1,61 @@
+.menu-bar__container {
+  display: flex;
+
+  /* alinhar elementos em linha */
+  flex-direction: row;
+
+  /* ao rolar a página para baixo, manter o menu fixo */
+  position: fixed;
+
+  /* força a ordem que algo apareça |  não ser sobreposto */
+  z-index: 999;
+  /* maior número - melhor a ordem */
+
+  background-color: #fff;
+
+  /* expandir 100% da tela */
+  width: 100%;
+  height: 40px;
+
+  /* sombreamento */
+  box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
+
+}
+
+.menu-bar__logo {
+  margin-left: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.menu-bar__item {
+  display: flex;
+  margin: auto;
+  align-items: center;
+}
+
+.menu-bar__item > ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.menu-bar__item > ul > li {
+  /* border: 1px solid red; */
+
+  /* espaçamento interno */
+  padding: 5px;
+
+  margin-right: 15px;
+}
+
+.menu-bar__item > ul > li > a {
+  text-decoration: none;
+  padding: 5px;
+  color: rgb(7, 7, 7);
+  font-family: 'Segoe UI';
+}
+
+.menu-bar__item > ul > li > a:hover{
+  color: blue;
+  font-weight: 600;
+}

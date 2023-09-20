@@ -1,0 +1,21 @@
+.home__container{
+  width: 90%;
+
+  /* margem padrão */
+  margin: auto;
+
+  padding: 50px;
+
+  display: flex;
+
+  /* cards com espaço em volta */
+  justify-content: space-around;
+
+  /* alinhando os itens pela base */
+  align-items: baseline;
+
+  /* toda vez que um card exceder o limite, irá jogar para baixo */
+  flex-wrap: wrap;
+
+  /* border: 1px solid #8a2be2; */
+}

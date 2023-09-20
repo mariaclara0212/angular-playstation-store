@@ -1,0 +1,28 @@
+.card-label__container {
+  /* relative - atrás | absolute - frente */
+  position: absolute;
+
+  /* espaçamento embaixo */
+  bottom: 90px;
+
+  right: 0;
+}
+
+.card-label__content {
+  display: flex;
+
+  /* centralizado dentro da sua caixinha */
+  align-items: center;
+  justify-content: center;
+
+  background-color: #0d0d0dd9;
+
+  color: #fff;
+  font-size: 12px;
+  font-family: 'segoe ui';
+  font-weight: bold;
+
+  /* aumentando o tamanho da caixa */
+  height: 40px;
+  padding: 0px 50px;
+}

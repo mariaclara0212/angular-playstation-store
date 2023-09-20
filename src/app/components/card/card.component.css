@@ -1,0 +1,29 @@
+.card__container {
+
+  position:relative;
+  border: 3px solid #3e4357;
+  border-radius: 10px;
+
+  width: 350px;
+  height: 500px;
+
+  display: flex;
+
+  /* todo conteúdo que sair da caixinha - esconder */
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+.card__img {
+  /* mínimo de largura e altura */
+  min-width: 100%;
+  min-height: 100%;
+
+  /* colocando um tranform de 0.8 segundos */
+  transition: transform 0.8s;
+}
+
+.card__img:hover{
+  /* aumentando a escala da imagem ao passar o mouse */
+  transform: scale(1.1);
+}
